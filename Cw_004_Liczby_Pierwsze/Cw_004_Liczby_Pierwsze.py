@@ -17,4 +17,3 @@ def sito(n):
     return pierwsze
 
 print(sito(n))
-print(sum[pierwsze])
