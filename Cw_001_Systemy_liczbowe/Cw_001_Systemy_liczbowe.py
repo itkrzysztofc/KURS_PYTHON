@@ -1,11 +1,12 @@
 print("Cwiczenie 1")
-print("Zamiana liczby dziesietnej dodatniej na liczbe binarna")
-print("======================================================")
+print('Zamiana liczby dziesietnej dodatniej na liczbe binarna')
+print("""=====================================================""")
 print("Wprowadz liczbe, ktora chcesz zamienic na liczbe binarna:")
-n = int(input())
+n = int(input("Tutaj: "))
 print("Wybrales liczbe: " + str(n))
 print("uzycie funkcji bin()") # funkcja wbudowana
 print(bin(n))
+
 print("------------------\n Wlasny algorytm:\n------------------")
 #i = 0 #iteratory tablicy - niewymagany
 tab = []
@@ -17,6 +18,14 @@ while n != 0:
     napis += str(tab)
     #i+=1
 print((napis))
+
+
+
+
+
+
+
+
 #odwrocenie napisu
 dlugosc = len(napis)
 napis2 = ""
@@ -25,3 +34,4 @@ for i in range(dlugosc):
 print(napis2)
 print("Dlugosc liczby binarnej to " + str(dlugosc) + " znakow")
 
+'''
